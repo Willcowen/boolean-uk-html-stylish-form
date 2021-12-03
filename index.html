@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Full Stack Portfolio</title>
-  </head>
-  <body>
 
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Stylish Form!</title>
+</head>
+
+<body>
+  <form class="main">
+
+    <h1>Say Hello!</h1>
+
+    <label for="your-name" class="form-text">Your Name</label>
+    <input required id="your-name" type="text" name="users-name" placeholder="Enter your name">
+
+    <label for="email" class="form-text">Email</label>
+    <input id="email" type="email" name="email" placeholder="Enter your email address">
+
+    <label for="needed-services" class="form-text">Needed Services</label>
+    <select id="needed-services" name="services" required>
+      <option value="">Choose Services</option>
+      <option value="web">Website Design</option>
+      <option value="app">Application Degisn</option>
+      <option value="game">Game Design</option>
+    </select>
+
+
+    <label for="select-budget" class="form-text">Budget</label>
+    <select id="select-budget" name="services" required>
+      <option value="">Select Budget</option>
+      <option value="small">Small</option>
+      <option value="large">Large</option>
+    </select>
+    <label for="message" class="form-text">Message</label>
+    <input id="message" type="text" name="users-name" placeholder="Your message here..">
+    <a href="/index2.html" target="_blank"><button id="submit" type="submit" value="Submit"><span>Submit &#8594;</span></button></a>
+</form>
+</body>
+
 </html>
